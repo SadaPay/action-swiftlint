@@ -1,0 +1,9 @@
+name: 'GitHub Action for SwiftLint'
+description: 'A tool to enforce Swift style and conventions'
+author: 'SadaPay <https://github.com/SadaPay>'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+branding:
+  icon: 'shield'
+  color: 'orange'
